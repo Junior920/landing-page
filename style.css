@@ -1,0 +1,30 @@
+/* style css for landing page */
+
+.div-container {
+    display: flex;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 50px;
+    
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    
+}
