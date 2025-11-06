@@ -1,8 +1,7 @@
 /* This is the CSS file for the landing page */
-* {
-  /*outline: 2px solid red;*/
-}
-
+/* * {
+    outline: red solid 2px;
+} */
 
 .hero {
     background-color: #1F2937;
@@ -12,11 +11,11 @@
 }
 
 .header-content{
-    width: px;
     height: 90px;
     display: flex;
     justify-content: center;
     gap: 313px;
+    font-weight: bold;
 }
 
 .header-links {
@@ -154,7 +153,6 @@
 }
 
 .third-section {
-    outline: 2px solid red; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,22 +160,21 @@
     background-color: white;
     color: white;
     font-size: 24px;
-    /* font-weight: 700; */
     flex-direction: column;
 }
 
 .third-section-content {
-    outline: 2px solid red;
     background-color: #3882F6;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 150px;
+    height: 120px;
     margin-top: 500px;
     margin-bottom: 500px;
-    width: 1000px;
+    width: 830px;
     align-items: center;
+    border-radius: 8px;
     
 }
 .second-button {
@@ -189,7 +186,7 @@
     border-radius: 6px;
     cursor: pointer;
     margin-top: 0px;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     border: 2px solid white;
     line-height: 14px;
 }
@@ -204,7 +201,6 @@
 }
 
 .call-to-action2 {
-    outline: 2px solid red;
     display: flex;
     margin-top: 0px;
     margin-bottom: 100px;
@@ -220,6 +216,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 70px;
     font-size: 14px;
 }
